@@ -1,4 +1,4 @@
-#SEBO - Plano de Gerenciamento de Tempo (PGT)
+# SEBO - Plano de Gerenciamento de Tempo (PGT)
 
 ## 1. Objetivo do Documento
 
@@ -36,9 +36,9 @@ Gerenciar o tempo do projeto requer um Plano de gerenciamento do cronograma apro
 
 ### 2.2 Documentos padrozinados do Tempo
 
-| Documento | Descrição   | Template  |
-|:---------------:|:-------------:|:-----------:|
-| Cronograma do Projeto | Template de cronograma em conformidade com a metodologia de gerenciamento de projetos | |
+| Documento | Descrição   |
+|:---------------:|:-------------:|
+| Cronograma do Projeto | Template de cronograma em conformidade com a metodologia de gerenciamento de projetos |
 
 ### 2.3 Ferramentas
 
@@ -58,11 +58,14 @@ Gerenciar o tempo do projeto requer um Plano de gerenciamento do cronograma apro
 ## 3. Definir e Sequenciar as atividades
 
 * 1. Abertura do Projeto - TAP
+* 1.1 Projeto iniciado
 * 2. Definição do Plano de Configuração do Projeto - PGC
 * 3. Organizar partes interessadas - PPI
 * 4. Planejar a Integraçao - PGI
 * 5. Definição do Escopo - PGE
+* 5.1 Escopo definido
 * 6. Organização do Cronograma - PGT
+* 6.1 Cronograma organizado
 * 7. Organização do Orçamento - PGO
 * 8. Gerenciar Qualidade - PGQ
 * 9. - 
@@ -72,25 +75,28 @@ Gerenciar o tempo do projeto requer um Plano de gerenciamento do cronograma apro
 | Atividade | Recursos | Duração (dias) |
 |:-------------:|:-------:|:-------:|
 | TAP | R1, R2, R4 | 7 |
+| Projeto Iniciado | - | 0 |
 | PGC | R1, R2 | 3 |
 | PPI | R2 | 7 |
 | PGI | R5 | 7 |
 | PGE | R3, R4 | 7 |
+| PGE Pronto | - | 0 |
 | PGT | R1 | 7 |
+| PGT Pronto | - | 0 |
 | PGO | R1, R4, R3 | 7 |
 | PGQ | R4 | 7 |
 
 ## 5. Cronograma
 
-| ID da Atividade | Dependência   | Atividade   | Início     | Tempo Previsto (dias)   | Término Real   |
-|:---------------:|:-------------:|:-----------:|:----------:|:----------:|:-----------------------:|
-| AT01 | | Termo de Abertura do Projeto  | 01/04/2017 | 30 | 28/04/2017 | 
-| AT02| | Estabelecer Plano de Configuração do projeto | 05/04/2017 | 7 | 28/04/2017 | 
-| AT03 | AT01| Planejamento das Partes Interessadas | 05/05/2017 | 7 | 12/05/2017 | 
-| AT04 | AT01 | Planejamento da Integração | 04/05/2017 | 7 | 19/05/2017 |
-| AT05 | AT01, AT03| Planejamento do Escopo | 12/05/2017 | 7 | 19/05/2017 | 
-| AT06 | AT05| Planejamento do Gerenciamento do Tempo | 12/05/2017 | 7 | 19/05/2017 |
-| AT07 | AT05| Gerenciamento dos Custos do Projeto | 19/05/2017 | 7 | - | 
-| AT08 | AT05, AT01, AT03 | Gerenciamento da Qualidade do Projeto | 19/05/2017 | 7 | - |
+| ID da Atividade | Dependência   | Atividade   | Início     | Término Real  |
+|:---------------:|:-------------:|:-----------:|:----------:|:----------:|
+| AT01 | | Termo de Abertura do Projeto  | 01/04/2017 | 28/04/2017 | 
+| AT02| | Estabelecer Plano de Configuração do projeto | 05/04/2017 | 28/04/2017 | 
+| AT03 | AT01| Planejamento das Partes Interessadas | 05/05/2017 | 12/05/2017 | 
+| AT04 | AT01 | Planejamento da Integração | 04/05/2017 | 19/05/2017 |
+| AT05 | AT01, AT03| Planejamento do Escopo | 12/05/2017 | 19/05/2017 | 
+| AT06 | AT05| Planejamento do Gerenciamento do Tempo | 12/05/2017 | 19/05/2017 |
+| AT07 | AT05| Gerenciamento dos Custos do Projeto | 19/05/2017 | - | 
+| AT08 | AT05, AT01, AT03 | Gerenciamento da Qualidade do Projeto | 19/05/2017 | - |
 
 
